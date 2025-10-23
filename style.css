@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 90%;
+  margin: auto;
+  background-image: url(./img/Banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+  color: #ffffff;
+}
+header h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+header p {
+  font-size: 1.5rem;
+  width: 50vw;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+header button {
+  background-color: #66BB6A;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+header button:hover {
+  background-color: #00FA9A;
+  color: #000;
+  transition: 0.5s;
+}
+header .box-header {
+  background: rgba(0, 0, 0, 0.4);
+  height: inherit;
+  padding: 200px 40px 40px 40px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.cards {
+  width: 90%;
+  margin: auto;
+  background-color: #F1F8C9;
+  padding: 50px 20px;
+  text-align: center;
+}
+.cards .card {
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+  display: inline-block;
+  width: 308px;
+  height: 426px;
+  background-color: #ffffff;
+  margin: 16px;
+  border-radius: 10px;
+}
+.cards .card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+.cards .card h2 {
+  font-size: 1.75rem;
+  padding: 10px 14px 0;
+}
+.cards .card p {
+  font-size: 1.1rem;
+  padding: 25px 14px;
+  font-weight: 400;
+  height: 70px;
+  overflow: hidden;
+}
+.cards .card button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  cursor: pointer;
+  padding: 0.6rem 0.8rem;
+  border-radius: 29px;
+  background-color: #66BB6A;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #FFF;
+  border: none;
+  width: 130px;
+  transition: 0.5s;
+}
+.cards .card button:hover {
+  background: #66BB6A;
+  background: #00FA9A;
+  color: #000;
+  transition: 0.5s;
+}
+
+.forms {
+  width: 90%;
+  margin: auto;
+  padding: 40px 20px;
+  background-color: #E8F5E9;
+  height: 70vh;
+  text-align: center;
+}
+.forms form {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+.forms h3 {
+  font-size: 2.2rem;
+  padding-bottom: 20px;
+}
+.forms p {
+  font-size: 1.1rem;
+  padding-bottom: 25px;
+  color: #767676;
+  font-weight: 400;
+}
+.forms input {
+  width: 100%;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  border: solid 1px #CCC;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+.forms input::-moz-placeholder {
+  font-size: 1.5rem;
+  color: #8E8E8E;
+  font-weight: 700;
+}
+.forms input::placeholder {
+  font-size: 1.5rem;
+  color: #8E8E8E;
+  font-weight: 700;
+}
+.forms select {
+  width: 100%;
+  padding: 20px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  border: solid 1px #CCC;
+  font-size: 1.5rem;
+  color: #8E8E8E;
+  background: #FFF;
+  font-weight: 700;
+  cursor: pointer;
+}
+.forms button {
+  margin-top: 40px;
+  width: 100%;
+  background-color: #66BB6A;
+  color: #FFF;
+  padding: 20px 20px;
+  border-radius: 25px;
+  border: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.forms button:hover {
+  background-color: #00FA9A;
+  color: #000;
+  transition: 0.5s;
+}
+
+.footer {
+  width: 90%;
+  margin: auto;
+  height: 10vh;
+  background-color: #66BB6A;
+  padding-top: 40px;
+}
+.footer p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #FFF;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */

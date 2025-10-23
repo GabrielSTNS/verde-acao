@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Verde Ação</title>
+  </head>
+  <body>
+    <header>
+      <div class="box-header">
+        <h1>Verde Ação</h1>
+        <p>
+          Ser voluntário na Verde Ação é plantar esperança e colher
+          transformação. Juntos, cuidamos do planeta e inspiramos mudanças
+          reais!
+        </p>
+        <button>Quero ser voluntário</button>
+      </div>
+    </header>
+    <main class="main-content">
+      <section class="cards">
+        <article class="card">
+          <img src="./img/Girassol.png" alt="" />
+          <h2>Plantio de mudas</h2>
+          <p>Cada muda plantada ajuda a restaurar o meio ambiente.</p>
+          <button>Ver mais</button>
+        </article>
+        <article class="card">
+          <img src="./img/Criancas.png" alt="" />
+          <h2>Educação ambiental</h2>
+          <p>Promove oficinas e rodas de conversas.</p>
+          <button>Ver mais</button>
+        </article>
+        <article class="card">
+          <img src="./img/Plantas.png" alt="" />
+          <h2>Cuidados</h2>
+          <p>Ajude a manter áreas preservadas.</p>
+          <button>Ver mais</button>
+        </article>
+        <article class="card">
+          <img src="./img/Floresta.png" alt="" />
+          <h2>Mapeamento</h2>
+          <p>Indentifique areas que precisam de mapeamento.</p>
+          <button>Ver mais</button>
+        </article>
+      </section>
+
+      <section class="forms">
+        <form action="">
+          <h3>Cadastre-se como voluntário</h3>
+          <p>
+            Faça parte de ações que transformam o mundo. Com pequenas atitudes,
+            você pode gerar grandes impactos na natureza e na comunidade.
+          </p>
+
+          <input
+            id="nome"
+            name="nome"
+            type="text"
+            placeholder="Nome"
+            required
+          />
+
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="E-mail"
+            required
+          />
+
+          <input
+            id="cidade"
+            name="cidade"
+            type="text"
+            placeholder="Cidade"
+            required
+          />
+
+          <select required>
+            <option value="" disabled selected>Selecione atividade</option>
+            <option value="">Plantio de Mudas</option>
+            <option value="">Educação Ambiental</option>
+            <option value="">Cuidados</option>
+            <option value="">Mapeamento</option>
+          </select>
+          <button>Cadastrar</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy; Todos os direitos reservados</p>
+    </footer>
+  </body>
+</html>
